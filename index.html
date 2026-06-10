@@ -3,61 +3,113 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nederlands Literatuur – Toets Samenvatting</title>
+<title>📚 Literatuur H4 – EXAMEN 10 TOOL</title>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap');
+
 body {
-    font-family: Arial;
     margin: 0;
-    background: #f4f4f4;
+    font-family: Inter, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
 }
 
+/* HEADER */
 header {
-    background: #1f2d3a;
-    color: white;
-    padding: 20px;
     text-align: center;
+    padding: 25px;
+    background: linear-gradient(90deg, #1e3a8a, #7c3aed);
 }
 
+header h1 {
+    margin: 0;
+    font-family: Playfair Display, serif;
+    font-size: 28px;
+}
+
+header p {
+    opacity: 0.8;
+}
+
+/* CONTAINER */
 .container {
     max-width: 1000px;
     margin: auto;
     padding: 20px;
 }
 
+/* BOOK CARD */
 .book {
-    background: white;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 10px;
+    background: #1e293b;
+    border-left: 6px solid #38bdf8;
+    padding: 18px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
-h2 {
-    color: #1f2d3a;
+.book h2 {
+    margin-top: 0;
+    font-family: Playfair Display, serif;
+    color: #38bdf8;
 }
 
+/* SECTIONS */
 .q {
-    font-weight: bold;
-    margin-top: 10px;
+    color: #fbbf24;
+    font-weight: 600;
+    margin-top: 12px;
 }
 
 .a {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    line-height: 1.4;
 }
+
+/* HIGHLIGHTS */
+.badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-right: 5px;
+    background: #334155;
+}
+
+/* COLORS PER TYPE */
+.ironisch { border-left-color: #f97316; }
+.zwart { border-left-color: #ef4444; }
+.direct { border-left-color: #22c55e; }
+.absurd { border-left-color: #a855f7; }
+
+/* TABLE */
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    font-size: 14px;
 }
 
 td, th {
-    border: 1px solid #ddd;
+    border: 1px solid #334155;
     padding: 8px;
 }
 
 th {
-    background: #1f2d3a;
-    color: white;
+    background: #0f172a;
+    color: #38bdf8;
+}
+
+/* MEMORY BOX */
+.memory {
+    background: #0b1220;
+    border: 1px solid #334155;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #94a3b8;
 }
 </style>
 </head>
@@ -65,113 +117,107 @@ th {
 <body>
 
 <header>
-<h1>📚 Literatuur – Complete Toets Samenvatting</h1>
+<h1>📚 LITERATUUR H4 – EXAMEN 10 TOOL</h1>
+<p>Leer dit 1x → schrijf alles in de toets</p>
 </header>
 
 <div class="container">
 
 <!-- PAALTJENS -->
-<div class="book">
-<h2>Snikken en grimlachjes – Piet Paaltjens</h2>
+<div class="book ironisch">
+<h2>1. Snikken en grimlachjes – Paaltjens</h2>
 
-<p class="q">✔ Meest passend bij thema humor?</p>
-<p class="a">Ja, omdat humor hier ironisch en parodisch is. Voorbeeld: romantische liefde wordt overdreven en belachelijk gemaakt.</p>
+<div class="q">🔥 HUMORSOORT</div>
+<div class="a"><span class="badge">ironisch</span><span class="badge">parodie</span> romantiek wordt belachelijk gemaakt</div>
 
-<p class="q">✔ Minst passend?</p>
-<p class="a">Niet van toepassing binnen dit thema, maar vergeleken met Deelder is het minder direct humoristisch.</p>
+<div class="q">👤 HOOFDPERSOON</div>
+<div class="a">Melancholische ik-figuur → slim, eenzaam, sarcastisch, blijft gelijk</div>
 
-<p class="q">✔ Hoofdpersoon</p>
-<p class="a">Piet Paaltjens is melancholisch, ironisch en romantisch maar sarcastisch. Hij verandert niet.</p>
+<div class="q">🎭 VERTELSITUATIE</div>
+<div class="a">Onbetrouwbare ik-verteller → overdreven + ironisch</div>
 
-<p class="q">✔ Vertelsituatie</p>
-<p class="a">Ik-verteller (onbetrouwbaar), omdat de verteller zichzelf ironisch en overdreven presenteert.</p>
+<div class="q">⏳ TIJD</div>
+<div class="a">Fragmentarisch (losse gedichten, geen verhaal)</div>
 
-<p class="q">✔ Tijd</p>
-<p class="a">Fragmentarisch (gedichten uit 1850–1852), geen doorlopende tijd.</p>
+<div class="q">📍 RUIMTE</div>
+<div class="a">Leiden + studentenleven (Minerva)</div>
 
-<p class="q">✔ Ruimte</p>
-<p class="a">Leiden en studentenomgeving, omdat het studentenleven centraal staat.</p>
-
-<p class="q">✔ Recensie (kort)</p>
-<p class="a">1. Ironisch en speels → voorbeeld: liefdesgedichten eindigen negatief.<br>
-2. Melancholisch → voorbeeld: verdriet wordt overdreven beschreven.</p>
+<div class="q">🧠 1 ZIN VOOR TOETS</div>
+<div class="memory">“De vertelsituatie is een ironische ik-verteller, omdat de gebeurtenissen overdreven en parodiërend worden weergegeven.”</div>
 </div>
 
 <!-- BIJLO -->
-<div class="book">
-<h2>Het instituut – Vincent Bijlo</h2>
+<div class="book zwart">
+<h2>2. Het instituut – Bijlo</h2>
 
-<p class="q">✔ Meest passend bij humor?</p>
-<p class="a">Zwartkomische humor, omdat ernstige situaties (blindheid/instituut) soms grappig en absurd worden beschreven.</p>
+<div class="q">🔥 HUMORSOORT</div>
+<div class="a"><span class="badge">zwartkomisch</span> grappig maar beklemmend</div>
 
-<p class="q">✔ Hoofdpersoon</p>
-<p class="a">Otto Iking is blind, slim, sarcastisch en groeit naar zelfstandigheid.</p>
+<div class="q">👤 HOOFDPERSOON</div>
+<div class="a">Otto Iking → blind, onzeker, groeit naar zelfstandigheid</div>
 
-<p class="q">✔ Vertelsituatie</p>
-<p class="a">Personaal perspectief, omdat we alleen Otto’s gedachten en gevoelens volgen.</p>
+<div class="q">🎭 VERTELSITUATIE</div>
+<div class="a">Personaal perspectief → alleen Otto’s beleving</div>
 
-<p class="q">✔ Tijd</p>
-<p class="a">Chronologisch met sprongen tijdens schoolperiode en thuis.</p>
+<div class="q">⏳ TIJD</div>
+<div class="a">Chronologisch met sprongen</div>
 
-<p class="q">✔ Ruimte</p>
-<p class="a">Blindeninstituut en thuisomgeving → gesloten wereld versterkt isolement.</p>
+<div class="q">📍 RUIMTE</div>
+<div class="a">Blindeninstituut → gesloten wereld</div>
 
-<p class="q">✔ Recensie</p>
-<p class="a">1. Kritisch → voorbeeld: slechte behandeling in instituut.<br>
-2. Zwartkomisch → voorbeeld: situaties op school zijn absurd maar realistisch.</p>
+<div class="q">🧠 TOETSZIN</div>
+<div class="memory">“Het verhaal is grotendeels chronologisch, omdat de gebeurtenissen de schoolperiode van Otto volgen met enkele tijdsprongen.”</div>
 </div>
 
 <!-- GRUNBERG -->
-<div class="book">
-<h2>Fantoompijn – Arnon Grunberg</h2>
+<div class="book absurd">
+<h2>3. Fantoompijn – Grunberg</h2>
 
-<p class="q">✔ Meest passend bij humor?</p>
-<p class="a">Zwart en absurdistisch, omdat serieuze onderwerpen (familie, identiteit) ironisch worden verteld.</p>
+<div class="q">🔥 HUMORSOORT</div>
+<div class="a"><span class="badge">absurd</span><span class="badge">zwart</span> vervreemding + ironie</div>
 
-<p class="q">✔ Hoofdpersoon</p>
-<p class="a">Robert G. Mehlman is afstandelijk, cynisch en obsessief met schrijven en status.</p>
+<div class="q">👤 HOOFDPERSOON</div>
+<div class="a">Robert G. Mehlman → cynisch, afstandelijk, geobsedeerd met status</div>
 
-<p class="q">✔ Vertelsituatie</p>
-<p class="a">Wisselend perspectief (raamvertelling), omdat meerdere stemmen het verhaal vertellen.</p>
+<div class="q">🎭 VERTELSITUATIE</div>
+<div class="a">Wisselend perspectief + raamvertelling</div>
 
-<p class="q">✔ Tijd</p>
-<p class="a">Niet-lineair, met flashbacks en sprongen in tijd.</p>
+<div class="q">⏳ TIJD</div>
+<div class="a">Niet-lineair (flashbacks + sprongen)</div>
 
-<p class="q">✔ Ruimte</p>
-<p class="a">Internationaal (Amsterdam, New York), omdat het verhaal zich verspreid afspeelt.</p>
+<div class="q">📍 RUIMTE</div>
+<div class="a">Internationaal (Amsterdam, New York)</div>
 
-<p class="q">✔ Recensie</p>
-<p class="a">1. Complex → voorbeeld: meerdere verhaallijnen door elkaar.<br>
-2. Zwartkomisch → voorbeeld: emotionele afstand in relaties.</p>
+<div class="q">🧠 TOETSZIN</div>
+<div class="memory">“De tijd is niet lineair opgebouwd, omdat het verhaal bestaat uit verschillende tijdlagen en herinneringen.”</div>
 </div>
 
 <!-- DEELDER -->
-<div class="book">
-<h2>Gemengde gevoelens – Jules Deelder</h2>
+<div class="book direct">
+<h2>4. Gemengde gevoelens – Deelder</h2>
 
-<p class="q">✔ Meest passend bij humor?</p>
-<p class="a">Ja, directe humor door observaties van stad en nachtleven.</p>
+<div class="q">🔥 HUMORSOORT</div>
+<div class="a"><span class="badge">direct</span><span class="badge">cynisch</span> snelle observaties</div>
 
-<p class="q">✔ Hoofdpersoon</p>
-<p class="a">Ik-figuur, nuchter, cynisch en observerend.</p>
+<div class="q">👤 HOOFDPERSOON</div>
+<div class="a">Ik-figuur → observator van stad en nacht</div>
 
-<p class="q">✔ Vertelsituatie</p>
-<p class="a">Ik-verteller, direct en persoonlijk.</p>
+<div class="q">🎭 VERTELSITUATIE</div>
+<div class="a">Ik-verteller (direct en persoonlijk)</div>
 
-<p class="q">✔ Tijd</p>
-<p class="a">Fragmentarisch, losse momenten zonder verhaalstructuur.</p>
+<div class="q">⏳ TIJD</div>
+<div class="a">Fragmentarisch (losse momenten)</div>
 
-<p class="q">✔ Ruimte</p>
-<p class="a">Rotterdam en nachtleven van de stad.</p>
+<div class="q">📍 RUIMTE</div>
+<div class="a">Rotterdam + nachtleven</div>
 
-<p class="q">✔ Recensie</p>
-<p class="a">1. Direct → voorbeeld: korte krachtige observaties.<br>
-2. Cynisch → voorbeeld: humor over dagelijkse chaos.</p>
+<div class="q">🧠 TOETSZIN</div>
+<div class="memory">“De ruimte speelt een grote rol, omdat Rotterdam als stad het gevoel en de sfeer van de gedichten bepaalt.”</div>
 </div>
 
 <!-- VERGELIJKING -->
 <div class="book">
-<h2>📊 Vergelijkingsschema (ingevuld)</h2>
+<h2>📊 VERGELIJKINGSSCHEMA (EXAMEN SNELHEID)</h2>
 
 <table>
 <tr>
@@ -179,29 +225,29 @@ th {
 <th>Humor</th>
 <th>Hoofdpersoon</th>
 <th>Tijd</th>
-<th>Vertelperspectief</th>
+<th>Verteller</th>
 </tr>
 
 <tr>
 <td>Paaltjens</td>
-<td>Ironisch / parodie</td>
-<td>Melancholisch ik</td>
+<td>Ironie / parodie</td>
+<td>Melancholische ik</td>
 <td>Fragmentarisch</td>
-<td>Onbetrouwbare ik</td>
+<td>Onbetrouwbaar ik</td>
 </tr>
 
 <tr>
 <td>Bijlo</td>
 <td>Zwartkomisch</td>
-<td>Blind, ontwikkelt zich</td>
+<td>Otto (ontwikkeling)</td>
 <td>Chronologisch</td>
 <td>Personaal</td>
 </tr>
 
 <tr>
 <td>Grunberg</td>
-<td>Absurdistisch</td>
-<td>Cynisch, afstandelijk</td>
+<td>Absurd / zwart</td>
+<td>Cynische schrijver</td>
 <td>Niet-lineair</td>
 <td>Wisselend</td>
 </tr>
@@ -213,6 +259,7 @@ th {
 <td>Fragmentarisch</td>
 <td>Ik-verteller</td>
 </tr>
+
 </table>
 </div>
 
